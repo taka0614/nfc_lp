@@ -1,0 +1,92 @@
+* , *::before , *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header , h1 {
+    background-color: #fff;
+}
+
+header img {
+    width: 100%;
+}
+
+h1 img , .info img {
+    width: 100%;
+    padding: 0 5%;
+}
+
+h2 {
+    color: #5469b1;
+    margin: 3% 0;
+}
+
+.info {
+    background-image: url(nfc_bg.png);
+    background-color: rgba(255,255,255,.8);
+    background-blend-mode: lighten;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.info p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.plan {
+    padding: 5%;
+    margin: 10% 0 20%;
+    background-image: url(bg_img.jpg);
+    background-color: rgba(255,255,255,.5);
+    background-blend-mode: lighten;
+}
+
+.plan_contents {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 5%;
+}
+
+.plan_contents img {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.profile_bnr {
+    position: fixed;
+    left: 0;
+    bottom: -1%;
+    width: 100%;
+}
+
+.profile_bnr img {
+    width: 100%;
+}
+
+.pc_bnr {
+    display: none;
+}
+
+@media(min-width: 769px) {
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .profile_bnr {
+        display: none;
+    }
+
+    .pc_bnr {
+        display: block;
+    }
+
+}
