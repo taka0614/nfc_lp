@@ -41,6 +41,22 @@ h2 {
     color: #333;
 }
 
+.explanation {
+    padding: 5%;
+}
+
+.explanation img {
+    width: 100%;
+}
+
+.explanation p {
+    color: #5469b1;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5% 0;
+}
+
 .plan {
     padding: 5%;
     margin: 10% 0 20%;
